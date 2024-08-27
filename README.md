@@ -1,5 +1,5 @@
 # Zombie Crossing 
-[![Copyright: Matthew Alexander Brown, 2024](https://img.shields.io/badge/Copyright-Matthew_Alexander_Brown,_2024-yellow.svg)](https://www.mushakushi.com/)
+[![Copyright: Matthew Alexander Brown, 2024](https://img.shields.io/badge/Copyright-Matthew_Alexander_Brown,_2024-white.svg)](https://www.mushakushi.com/)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightblue.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ## ⚙ Installation 
