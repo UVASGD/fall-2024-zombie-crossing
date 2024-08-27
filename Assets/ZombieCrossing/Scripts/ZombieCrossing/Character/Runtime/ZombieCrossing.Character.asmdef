@@ -1,0 +1,16 @@
+{
+    "name": "ZombineCrossing.Character",
+    "rootNamespace": "",
+    "references": [
+        "GUID:fc314c475911f9b40babad8093a0363d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
