@@ -36,6 +36,7 @@ MonoBehaviour:
     - com.solidalloy.type-references
     - com.solidalloy.unity-dropdown
     - com.solidalloy.util
+    - dev.yarnspinner.unity
     - org.nuget.system.buffers
     - org.nuget.system.memory
     - org.nuget.system.numerics.vectors

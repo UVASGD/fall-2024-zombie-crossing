@@ -17,7 +17,9 @@ git clone https://github.com/UVASGD/fall-2024-zombie-crossing.git#{VERSION}
 ```
 
 ### Git Submodules
+Add a git submodule named `fall-2024-zombie-crossing-private` with the following packages:
+- https://assetstore.unity.com/packages/vfx/shaders/fullscreen-camera-effects/pixel-perfect-fog-of-war-229484?srsltid=AfmBOoqcmoO0IvCnGwUgbm3e1Yvu4hGyqLHA_yhsBxQ28GUoQ1keQSbl
 
 ### Git Dependencies
-The following packages need to be installed manually from the package manager: 
+The following packages need to be installed manually from the package manager via git url: 
 
