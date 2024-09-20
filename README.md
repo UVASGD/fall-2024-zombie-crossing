@@ -16,10 +16,20 @@ If you are specifying a version, append `#{VERSION}` to the end of the git URL.
 git clone https://github.com/UVASGD/fall-2024-zombie-crossing.git#{VERSION}
 ```
 
-### Git Submodules
-Add a git submodule named `fall-2024-zombie-crossing-private` with the following packages:
+### Creating the Private Submodule
+Next, if you do not have access to it, create a private git repository named `fall-2024-zombie-crossing-private` with the following assets installed to the root directory:
 - https://assetstore.unity.com/packages/vfx/shaders/fullscreen-camera-effects/pixel-perfect-fog-of-war-229484?srsltid=AfmBOoqcmoO0IvCnGwUgbm3e1Yvu4hGyqLHA_yhsBxQ28GUoQ1keQSbl
 
-### Git Dependencies
-The following packages need to be installed manually from the package manager via git url: 
+If you performed the previous step, run the following command, where `<url>` is the url of the `fall-2024-zombie-crossing-private` git repository:
+```bash
+git submodule set-url -- Assets/fall-2024-zombie-crossing-private <url>
+```
+>[!NOTE]
+>This is the only submodule used by the project
+
+### Updating the submodule
+To install the contents of the submodule for the first time, use:
+```bash
+git submodule update --init --recursive --remote
+```
 
