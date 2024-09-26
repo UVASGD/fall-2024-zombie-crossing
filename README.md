@@ -3,6 +3,7 @@
 [![Copyright: Matthew Alexander Brown, 2024](https://img.shields.io/badge/©-Matthew_Brown,_2024-darkgray.svg)](https://www.mushakushi.com/)
 
 ## ⚙ Installation 
+The project uses 6000.0.5f1
 
 To install the current version, use:
 
