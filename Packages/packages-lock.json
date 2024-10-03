@@ -7,29 +7,12 @@
       "dependencies": {},
       "url": "https://package.openupm.com"
     },
-    "com.mushakushi.menuframework": {
-      "version": "https://github.com/Mushakushi/UIToolkitMenuFramework.git?path=Assets/Mushakushi.MenuFramework",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {
-        "com.unity.ui": "1.0.0",
-        "com.unity.inputsystem": "1.7.0"
-      },
-      "hash": "aaa97c45e55532fe37958f07f60d48b78d99fff8"
-    },
     "com.mushakushi.yarnspinnerutility": {
       "version": "https://github.com/mushakushi/yarn-spinner-utility.git?path=Assets/YarnSpinnerUtility",
       "depth": 0,
       "source": "git",
       "dependencies": {},
       "hash": "af2f5743756ca3ef45183d4b0f080c7708efaad4"
-    },
-    "com.rotaryheart.serializabledictionarylite": {
-      "version": "2.6.11",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://package.openupm.com"
     },
     "com.solidalloy.type-references": {
       "version": "2.16.0",
@@ -272,12 +255,6 @@
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.imgui": "1.0.0"
       }
-    },
-    "com.unity.ui": {
-      "version": "2.0.0",
-      "depth": 1,
-      "source": "builtin",
-      "dependencies": {}
     },
     "com.unity.visualscripting": {
       "version": "1.9.4",
