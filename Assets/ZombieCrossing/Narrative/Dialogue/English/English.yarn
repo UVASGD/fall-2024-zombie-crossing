@@ -8,4 +8,10 @@ NPC: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem
 -> Test
     This NPC has never met someone so much like them.
     They stand speechless
+<<jump Node>>
+===
+title: Node
+position: 0,0
+---
+test
 ===
