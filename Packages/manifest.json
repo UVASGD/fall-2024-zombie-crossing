@@ -1,9 +1,7 @@
 {
   "dependencies": {
     "com.mackysoft.serializereference-extensions": "1.4.0",
-    "com.mushakushi.menuframework": "https://github.com/Mushakushi/UIToolkitMenuFramework.git?path=Assets/Mushakushi.MenuFramework",
     "com.mushakushi.yarnspinnerutility": "https://github.com/mushakushi/yarn-spinner-utility.git?path=Assets/YarnSpinnerUtility",
-    "com.rotaryheart.serializabledictionarylite": "2.6.11",
     "com.solidalloy.type-references": "2.16.0",
     "com.unity.ai.navigation": "2.0.0",
     "com.unity.cinemachine": "3.1.0",
@@ -16,6 +14,7 @@
     "com.unity.timeline": "1.8.7",
     "com.unity.ugui": "2.0.0",
     "com.unity.visualscripting": "1.9.4",
+    "dev.yarnspinner.unity": "2.4.2",
     "com.unity.modules.accessibility": "1.0.0",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
@@ -47,8 +46,7 @@
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
-    "com.unity.modules.xr": "1.0.0",
-    "dev.yarnspinner.unity": "2.4.2"
+    "com.unity.modules.xr": "1.0.0"
   },
   "scopedRegistries": [
     {
