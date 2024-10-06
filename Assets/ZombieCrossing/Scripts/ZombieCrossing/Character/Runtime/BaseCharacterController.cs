@@ -7,6 +7,9 @@ namespace ZombieCrossing.Character.Runtime
     /// </summary>
     public abstract class BaseCharacterController: MonoBehaviour
     {
+        
+
+
         /// <summary>
         /// Moves the character controller.
         /// </summary>
