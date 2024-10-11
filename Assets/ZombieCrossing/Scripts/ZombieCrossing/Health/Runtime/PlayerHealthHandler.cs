@@ -14,6 +14,7 @@ public class PlayerHealthHandler : MonoBehaviour
     /// </summary>
     [SerializeField]
     private float health;
+
     private bool IsDead = false;
     private bool HasTakenDamage = false;
     private float IFramesTimer = 0.0f;
@@ -27,7 +28,7 @@ public class PlayerHealthHandler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (health <= 0.0f)
+        if (health <= 0.0f && !IsDead)
         {
             die();
         }
@@ -38,16 +39,18 @@ public class PlayerHealthHandler : MonoBehaviour
             if (IFramesTimer >= IFramesTime) 
             {
                 HasTakenDamage = false;
+                IFramesTimer = 0.0f;// reset iframes timer
             }
         }
         
     }
 
-    private void dealDamage(float damageDealt)
+    private void takeDamage(float damageDealt)
     {
         health -= damageDealt;
+        HasTakenDamage = true;
         healthEventChannel.HandlePlayerHit();
-        Debug.Log("Oof! I took damage at " + Time.time);
+        Debug.Log(gameObject.name + " took" + damageDealt + " damage at " + Time.time);
 
     }
 
@@ -55,16 +58,16 @@ public class PlayerHealthHandler : MonoBehaviour
     {
         health = 0.0f;
         // do stuff to die
+        IsDead = true;
         healthEventChannel.HandlePlayerDeath();
-        Debug.Log("Oh no! I died!");
+        Debug.Log(gameObject.name + " died.");
     }
 
     private void OnControllerColliderHit(ControllerColliderHit hit)
     {
-        if (hit.gameObject.CompareTag("enemy"))// && !HasTakenDamage)
+        if (hit.gameObject.CompareTag("enemy") && !HasTakenDamage && !IsDead)
         {
-            dealDamage(1.0f);/// some enemy.damage value
-
+            takeDamage(1.0f);// some enemy.damage value
         }
     }
 }
