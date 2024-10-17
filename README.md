@@ -3,7 +3,7 @@
 [![Copyright: Matthew Alexander Brown, 2024](https://img.shields.io/badge/©-Matthew_Brown,_2024-darkgray.svg)](https://www.mushakushi.com/)
 
 ## ⚙ Installation 
-Install Unity [6000.0.23](https://unity.com/releases/editor/whats-new/6000.0.23). 
+Install Unity [6000.0.23f1](https://unity.com/releases/editor/whats-new/6000.0.23). 
 
 Then, to install the current version, use:
 ```bash
