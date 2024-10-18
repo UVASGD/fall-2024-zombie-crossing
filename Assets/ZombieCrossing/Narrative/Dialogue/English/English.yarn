@@ -17,25 +17,42 @@ position: -146,46
 ---
 //Placeholder dialogue. Add flavor!
 //Bibi is the peppy one.
-Bibi: Hello!
+Bibi: Hello~! It's a great day to shoot some zombies, isn't it?
+Bibi: Just kidding~!
+Bibi: It's ALWAYS a good day to shoot some zombies!
 -> Buy/Sell
-<<jump BibiShopkeeperDialogue>>
-  //Will take you to the buy/sell menu 
+ //Will take you to the buy/sell menu 
+  <<jump BibiShopkeeperDialogue>>
 -> What do you sell?
   //Bibi describes how she sells guns & bullets
+  Bibi: Guns and bullets! Bullets and guns!
+  Bibi: I love the sound they make when you shoot 'em: RATATATA~!
+  Bibi: That's why 'gun' rhymes with 'fun'!
+  Bibi: And 'bullet' rhymes with...
+  Bibi: ...'mullet'?
 -> About Self
   //Bibi describes herself, backstory, etc.
+  Bibi: I'm Bibi, and I love guns *almost* as much as I love my twin sister, Bubu!
+  Bibi: I always tend to look on the brighter side of things. Some people think I'm *too* happy, but--
+  Bibi: THAT'S~! NOT~! POSSIBLE~! You can never be too happy~!
+  Bibi: ...Well, I *guess* if a zombie's in the middle of chewing through your tendons, then it's a bit weird to be happy about it.
+  Bibi: Still, it's totally permissible to crack a smile while you're being eaten alive, at the very least. I heard zombie gums are soft and tickle-y~!
 -> About Sister
  //Bibi talks about her sister, Bubu
+  Bibi: I love, love, LOVE my sister, Bubu, but she's so...
+  Bibi: NOT~! FUN~!
+  Bibi: I bet it's exhausting being mopey all the time. 
+  Bibi: I try to tell her to smile more, but she refuses.
+  Bibi: Everyone LOVES being told to smile more! Like, how could you *not* be happy simply tells you to be happy?  
+  Bibi: I don't get it! My sister's so strange...
 
-Bibi: Goodbye!
 ===
 
 title: BibiShopkeeperDialogue
 position: -150,287
 ---
 //Bibi is the peppy one.
-Bibi: Yay, a customer! Ready to buy some guns~? 
+Bibi: Yay, a customer! Welome to Bibi's Guns~! 
 -> Buy
   //Will take you to the buy menu 
 -> Sell
@@ -63,16 +80,33 @@ position: 75,61
 ---
 //Placeholder dialogue. Add flavor!
 //Bubu is the macarbe one. 
-Bubu: Hello!
+Bubu: Hi.
+Bubu: I'm suprised you're not dead yet... 
+Bubu: ...but a *good* kind of suprised, I suppose. 
 -> Buy/Sell
-<<jump BubuShopkeeperDialogue>>
-  //Will take you to the buy/sell menu 
+  //Will take you to the buy/sell menu
+  <<jump BubuShopkeeperDialogue>>
 -> What do you sell?
   //Bubu describes how she sells seeds and bait.
+  Bubu: Seeds and fish bait. 
+  Bubu: One brings new life. The other is the harbinger of death. 
+  Bubu: Choose wisely.
 -> About Self
   //Bubu describes herself, backstory, etc.
+  Bubu: Bubu. That's the name I am referred to as.
+  Bubu: I've heard people around town call me 'gloomy', but I'm just normal given the...circumstances.
+  Bubu: How does one experience joy when death lurks around every corner, swathing its sticky, sickly tendrils around your body, wresting you into the void unknown.
+  Bubu: (...Hey, that's a good line. I should write that down somewhere.)
+  Bubu: What? Did I just say something? N-No. You must be mistaken.
+  Bubu: This conversation is over.  
 -> About Sister
  //Bubu talks about her sister, Bibi
-
-Bubu: Goodbye!
+  Bubu: I love my sister; she's the only family I have left after... *sigh*
+  Bubu: But I don't know how she can be so cheery. 
+  Bubu: The thought alone of her endless energy tires me out.
+  Bubu: She often tells me that I should be less gloomy and smile more.
+  Bubu: But I fear smiling too much would wear out my tooth enamel. 
+  Bubu: When the inevitable, fateful day comes, it would be more difficult to match my dental records with my rotting, decaying skull. 
+  Bubu: That's why I keep all smiling to a minimum. I try to tell Bibi to do the same, but she never heeds my advice.
+  Bubu: My sister is quite odd.
 ===
