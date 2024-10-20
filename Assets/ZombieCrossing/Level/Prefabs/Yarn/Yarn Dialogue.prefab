@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6763522465034163675
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1439428908616418360}
+  - component: {fileID: 8267365142559000010}
+  - component: {fileID: 3030832047681785741}
+  - component: {fileID: 6431862049082400195}
+  - component: {fileID: 1218798354781876754}
+  - component: {fileID: 2348151003818897009}
+  - component: {fileID: 6765990237254943689}
+  m_Layer: 0
+  m_Name: Yarn Dialogue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1439428908616418360
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6763522465034163675}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8267365142559000010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6763522465034163675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c7d1fc1f3ac43e580c898504998301a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  yarnProject: {fileID: 7545569452688597077, guid: 9d946514b3fdb4646904b8a897390292, type: 3}
+  variableStorageBehaviour: {fileID: 3030832047681785741}
+  lineProviderBehaviour: {fileID: 6431862049082400195}
+  verboseLogging: 0
+--- !u!114 &3030832047681785741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6763522465034163675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 610c541718d694070a21327d1ae62e75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showDebug: 0
+  debugTextView: {fileID: 0}
+--- !u!114 &6431862049082400195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6763522465034163675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10f0777399ec04ef6957da2ae823eb8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textLanguageCode: en-US
+--- !u!114 &1218798354781876754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6763522465034163675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 940437cd79b64035af4b305bed087334, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueParser: {fileID: 8267365142559000010}
+--- !u!114 &2348151003818897009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6763522465034163675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b8515a69dc549fe96d50190846ded25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueParser: {fileID: 8267365142559000010}
+  views:
+  - rid: 8776188851373736236
+  - rid: 8776188851373736237
+  - rid: 8776188851373736239
+  references:
+    version: 2
+    RefIds:
+    - rid: 8776188851373736236
+      type: {class: FadeInCanvasView, ns: YarnSpinnerUtility.Samples.Demo.Source, asm: Assembly-CSharp}
+      data:
+        canvasGroup: {fileID: 0}
+        fadeDuration: 0.5
+    - rid: 8776188851373736237
+      type: {class: LineViewCharacterName, ns: YarnSpinnerUtility.Samples.Demo.Source, asm: Assembly-CSharp}
+      data:
+        canvasGroup: {fileID: 0}
+        text: {fileID: 0}
+    - rid: 8776188851373736239
+      type: {class: LineViewWithoutCharacterName, ns: YarnSpinnerUtility.Samples.Demo.Source, asm: Assembly-CSharp}
+      data:
+        text: {fileID: 0}
+        fadeSpread: 3
+        fadeSpeed: 20
+--- !u!114 &6765990237254943689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6763522465034163675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61f4e51058124589b5d88f2583a2f329, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueParser: {fileID: 8267365142559000010}
+  views:
+  - rid: 8776188851373736242
+  - rid: 8776188851373736240
+  references:
+    version: 2
+    RefIds:
+    - rid: 8776188851373736240
+      type: {class: OptionView, ns: YarnSpinnerUtility.Samples.Demo.Source, asm: Assembly-CSharp}
+      data:
+        dialogueParser: {fileID: 8267365142559000010}
+        prefab: {fileID: 6279463429807614479, guid: d11d9171f46c68a409697bc4a29f673d, type: 3}
+        dialogueOptionParent: {fileID: 0}
+    - rid: 8776188851373736242
+      type: {class: FadeInCanvasViewOptions, ns: ZombieCrossing.Dialogue.Runtime, asm: Assembly-CSharp}
+      data:
+        canvasGroup: {fileID: 0}
+        fadeDuration: 0.01
