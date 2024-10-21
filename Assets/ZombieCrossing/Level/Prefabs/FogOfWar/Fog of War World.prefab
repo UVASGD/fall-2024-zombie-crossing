@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4986262928011089282}
   - component: {fileID: 1057104787844762277}
   m_Layer: 0
-  m_Name: Fog of War
+  m_Name: Fog of War World
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
