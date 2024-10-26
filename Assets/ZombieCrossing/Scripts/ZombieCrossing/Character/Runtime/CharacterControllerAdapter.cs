@@ -16,6 +16,19 @@ namespace ZombieCrossing.Character.Runtime
 
         private Vector3 accumulatedMotion;
 
+        private float ogHeight;
+        private float ogRadius;
+        private float crouchH;
+        private float crouchR;
+        private float normalSpeed = 1f;
+        private float crouchSpeed = 0.3f;
+
+        private void Start()
+        {
+            ogHeight = characterController.height;
+            ogRadius = characterController.radius;
+        }
+
         private void Awake()
         {
             oldPosition = transform.position;
@@ -26,6 +39,11 @@ namespace ZombieCrossing.Character.Runtime
             var position = transform.position;
             LinearVelocity = (position - oldPosition) / Time.deltaTime;
             oldPosition = position;
+
+            // shift to crouch
+            float characterSize = (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift)) ? 0.5f : 1f;
+            characterController.height = ogHeight * characterSize; // height
+            characterController.radius = ogRadius * characterSize; // hitbox size
         }
 
         private void FixedUpdate()
@@ -37,7 +55,8 @@ namespace ZombieCrossing.Character.Runtime
         /// <inheritdoc />
         public override void Move(Vector3 motion)
         {
-            accumulatedMotion += motion;
+            float speed = (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift)) ? crouchSpeed : normalSpeed;
+            accumulatedMotion += motion * speed;
         }
     }
 }
