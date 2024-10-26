@@ -18,8 +18,6 @@ namespace ZombieCrossing.Character.Runtime
 
         private float ogHeight;
         private float ogRadius;
-        private float crouchH;
-        private float crouchR;
         private float normalSpeed = 1f;
         private float crouchSpeed = 0.3f;
 
