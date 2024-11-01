@@ -1,5 +1,15 @@
 {
   "dependencies": {
+    "com.eflatun.scenereference": {
+      "version": "4.1.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.settings-manager": "2.0.1",
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      },
+      "url": "https://package.openupm.com"
+    },
     "com.mackysoft.serializereference-extensions": {
       "version": "1.4.0",
       "depth": 0,
@@ -7,12 +17,29 @@
       "dependencies": {},
       "url": "https://package.openupm.com"
     },
+    "com.mushakushi.menuframework": {
+      "version": "https://github.com/mushakushi/ui-toolkit-menu-framework.git?path=Assets/Mushakushi.MenuFramework",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.ui": "1.0.0",
+        "com.unity.inputsystem": "1.7.0"
+      },
+      "hash": "773c10fdcf00142f7a9d0f788685408bbc1056e8"
+    },
     "com.mushakushi.yarnspinnerutility": {
       "version": "https://github.com/mushakushi/yarn-spinner-utility.git?path=Assets/YarnSpinnerUtility",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "af2f5743756ca3ef45183d4b0f080c7708efaad4"
+      "hash": "f77626405f2fb1979548a35b34821611e7115801"
+    },
+    "com.rotaryheart.serializabledictionarylite": {
+      "version": "2.6.11",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
     },
     "com.solidalloy.type-references": {
       "version": "2.16.0",
@@ -141,6 +168,13 @@
     "com.unity.nuget.mono-cecil": {
       "version": "1.11.4",
       "depth": 3,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.nuget.newtonsoft-json": {
+      "version": "3.2.1",
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -275,6 +309,12 @@
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.imgui": "1.0.0"
       }
+    },
+    "com.unity.ui": {
+      "version": "1.0.0",
+      "depth": 1,
+      "source": "builtin",
+      "dependencies": {}
     },
     "com.unity.visualscripting": {
       "version": "1.9.4",

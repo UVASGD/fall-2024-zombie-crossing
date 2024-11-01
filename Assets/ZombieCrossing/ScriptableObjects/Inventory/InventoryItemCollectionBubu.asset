@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34d446379a2447d69bf5e3d0b9430f5f, type: 3}
+  m_Name: InventoryItemCollectionBubu
+  m_EditorClassIdentifier: 
+  inventoryItems:
+  - <Name>k__BackingField: Flimsy Fishing Rod
+    <Description>k__BackingField: It looks like it was made to catch fish
+    <Icon>k__BackingField: {fileID: 21300000, guid: a6437d2f3b1bf4da7a9619a6b6446a16, type: 3}
+    <Count>k__BackingField: 1
+    <Price>k__BackingField: 2
+  - <Name>k__BackingField: Sturdy Fishing Rod
+    <Description>k__BackingField: A sturdy rod that'll net you fish...
+    <Icon>k__BackingField: {fileID: 21300000, guid: a6437d2f3b1bf4da7a9619a6b6446a16, type: 3}
+    <Count>k__BackingField: 1
+    <Price>k__BackingField: 3
+  - <Name>k__BackingField: Golden Fishing Rod
+    <Description>k__BackingField: The gold is just for show but this rod means business.
+    <Icon>k__BackingField: {fileID: 21300000, guid: a6437d2f3b1bf4da7a9619a6b6446a16, type: 3}
+    <Count>k__BackingField: 1
+    <Price>k__BackingField: 4

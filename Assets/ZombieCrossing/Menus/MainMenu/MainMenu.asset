@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d29ea7bd10d414ba0114ed4cb47f89f, type: 3}
+  m_Name: MainMenu
+  m_EditorClassIdentifier: 
+  <Asset>k__BackingField: {fileID: 9197481963319205126, guid: 8434b58447e64b443a54a346aaf24e17, type: 3}
+  <Extensions>k__BackingField:
+  - rid: 4523190189593723169
+  references:
+    version: 2
+    RefIds:
+    - rid: 4523190189593723169
+      type: {class: LoadSceneButtonMenuExtension, ns: ZombieCrossing.SceneManagement.Runtime, asm: Assembly-CSharp}
+      data:
+        <Query>k__BackingField:
+          selectors:
+          - rid: 4523190189593723170
+        sceneReference:
+          asset: {fileID: 102900000, guid: 99c9720ab356a0642a771bea13969a05, type: 3}
+          guid: 99c9720ab356a0642a771bea13969a05
+    - rid: 4523190189593723170
+      type: {class: Name, ns: Mushakushi.MenuFramework.Runtime.SerializableUQuery.Selectors, asm: Framework.UI.Runtime}
+      data:
+        name: Start

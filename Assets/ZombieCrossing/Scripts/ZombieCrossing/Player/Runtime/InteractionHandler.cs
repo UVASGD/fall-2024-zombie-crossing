@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using ZombieCrossing.CommandPattern.Runtime;
 using ZombieCrossing.Input.Runtime;
@@ -34,8 +35,8 @@ namespace ZombieCrossing.Player.Runtime
         {
             for (var i = 0; i < collidersCount; i++)
             {
-                if (!colliders[i].TryGetComponent<ICommand>(out var interactionCommand)) continue; 
-                interactionCommand.Execute();
+                if (colliders[i].GetComponents<ICommand>() is not IEnumerable<ICommand> commands) return; 
+                foreach (var command in commands) command.Execute();
             }
         }  
     }

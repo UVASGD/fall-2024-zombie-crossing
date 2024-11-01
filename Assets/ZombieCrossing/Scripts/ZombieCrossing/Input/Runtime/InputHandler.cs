@@ -52,7 +52,12 @@ namespace ZombieCrossing.Input.Runtime
         public event Action OnSubmit;
         
         /// <summary> Callback on cancel (UI). </summary>
-        public event Action OnCancel; 
+        public event Action OnCancel;
+
+        private void Start()
+        {
+            PlayerInput.actions.Enable();
+        }
         
         public void HandleMove(InputAction.CallbackContext context) => HandleVector2Input(context, vector => OnMove?.Invoke(vector));
         public void HandleLook(InputAction.CallbackContext context) => HandleVector2Input(context, vector => OnLook?.Invoke(vector));

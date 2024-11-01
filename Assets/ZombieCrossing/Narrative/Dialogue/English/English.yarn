@@ -52,11 +52,13 @@ title: BibiShopkeeperDialogue
 position: -150,287
 ---
 //Bibi is the peppy one.
-Bibi: Yay, a customer! Welome to Bibi's Guns~! 
+Bibi: Yay, a customer! Welcome to Bibi's Guns~! 
 -> Buy
   //Will take you to the buy menu 
+  <<open_menu>>
 -> Sell
   //Will take you to the sell menu
+  Not implemented.
 -> Leave
     Bibi: Have fun out there~!
 ===
@@ -69,6 +71,7 @@ position: 114,277
 Bubu: ...Welcome. 
 -> Buy
   //Will take you to the buy menu 
+  <<open_menu>>
 -> Sell
   //Will take you to the sell menu
 -> Leave 
@@ -79,10 +82,10 @@ title: BubuGeneralDialogue
 position: 75,61
 ---
 //Placeholder dialogue. Add flavor!
-//Bubu is the macarbe one. 
+//Bubu is the macabre one. 
 Bubu: Hi.
-Bubu: I'm suprised you're not dead yet... 
-Bubu: ...but a *good* kind of suprised, I suppose. 
+Bubu: I'm surprised you're not dead yet... 
+Bubu: ...but a *good* kind of surprised, I suppose. 
 -> Buy/Sell
   //Will take you to the buy/sell menu
   <<jump BubuShopkeeperDialogue>>

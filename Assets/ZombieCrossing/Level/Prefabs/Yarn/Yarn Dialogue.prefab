@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1218798354781876754}
   - component: {fileID: 2348151003818897009}
   - component: {fileID: 6765990237254943689}
+  - component: {fileID: 5581353310380751840}
   m_Layer: 0
   m_Name: Yarn Dialogue
   m_TagString: Untagged
@@ -159,3 +160,18 @@ MonoBehaviour:
       data:
         canvasGroup: {fileID: 0}
         fadeDuration: 0.01
+--- !u!114 &5581353310380751840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6763522465034163675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bd4014f4f154f7bb787bd9cc059a63d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  commandDispatcher: {fileID: 1218798354781876754}
+  menuEventChannel: {fileID: 11400000, guid: c20e1de311e00324e9381140950b2988, type: 2}
+  menu: {fileID: 0}

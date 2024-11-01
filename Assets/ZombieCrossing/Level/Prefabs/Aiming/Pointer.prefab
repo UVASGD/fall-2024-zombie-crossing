@@ -102,7 +102,7 @@ MonoBehaviour:
   referenceCamera: {fileID: 0}
   inputHandler: {fileID: 0}
   origin: {fileID: 0}
-  maxDistanceFromOrigin: 20
+  maxDistanceFromOrigin: 25
   includeLayers:
     serializedVersion: 2
     m_Bits: 4294967295

@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "com.mackysoft.serializereference-extensions": "1.4.0",
+    "com.mushakushi.menuframework": "https://github.com/mushakushi/ui-toolkit-menu-framework.git?path=Assets/Mushakushi.MenuFramework",
     "com.mushakushi.yarnspinnerutility": "https://github.com/mushakushi/yarn-spinner-utility.git?path=Assets/YarnSpinnerUtility",
     "com.solidalloy.type-references": "2.16.0",
     "com.unity.ai.navigation": "2.0.4",
@@ -48,13 +49,16 @@
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
-    "com.unity.modules.xr": "1.0.0"
+    "com.unity.modules.xr": "1.0.0",
+    "com.rotaryheart.serializabledictionarylite": "2.6.11",
+    "com.eflatun.scenereference": "4.1.1"
   },
   "scopedRegistries": [
     {
       "name": "package.openupm.com",
       "url": "https://package.openupm.com",
       "scopes": [
+        "com.eflatun.scenereference",
         "com.mackysoft.serializereference-extensions",
         "com.rotaryheart.serializabledictionarylite",
         "com.solidalloy.type-references",
