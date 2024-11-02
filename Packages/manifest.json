@@ -1,10 +1,13 @@
 {
   "dependencies": {
+    "com.eflatun.scenereference": "4.1.1",
     "com.mackysoft.serializereference-extensions": "1.4.0",
     "com.mushakushi.menuframework": "https://github.com/mushakushi/ui-toolkit-menu-framework.git?path=Assets/Mushakushi.MenuFramework",
     "com.mushakushi.yarnspinnerutility": "https://github.com/mushakushi/yarn-spinner-utility.git?path=Assets/YarnSpinnerUtility",
+    "com.rotaryheart.serializabledictionarylite": "2.6.11",
     "com.solidalloy.type-references": "2.16.0",
     "com.unity.ai.navigation": "2.0.4",
+    "com.unity.behavior": "1.0.3",
     "com.unity.cinemachine": "3.1.0",
     "com.unity.collab-proxy": "2.5.2",
     "com.unity.ide.rider": "3.0.31",
@@ -49,9 +52,7 @@
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
-    "com.unity.modules.xr": "1.0.0",
-    "com.rotaryheart.serializabledictionarylite": "2.6.11",
-    "com.eflatun.scenereference": "4.1.1"
+    "com.unity.modules.xr": "1.0.0"
   },
   "scopedRegistries": [
     {
