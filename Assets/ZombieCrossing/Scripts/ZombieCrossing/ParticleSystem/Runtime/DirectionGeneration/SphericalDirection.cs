@@ -11,8 +11,8 @@ namespace ZombieCrossing.ParticleSystem.Runtime.DirectionGeneration
         /// <summary>
         /// The amount of faces on the polygon.
         /// </summary>
-        [field: SerializeField]
-        public int Faces { get; set; }
+        [field: SerializeField, Min(2)]
+        public int Faces { get; set; } = 2;
 
         private int faceIndex; 
         

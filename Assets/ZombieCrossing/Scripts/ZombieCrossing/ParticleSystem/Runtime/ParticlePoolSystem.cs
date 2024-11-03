@@ -44,7 +44,7 @@ namespace ZombieCrossing.ParticleSystem.Runtime
         /// The number of particles to emit at once. 
         /// </summary>
         [SerializeField, Min(1)] 
-        private int burstCount;
+        private int burstCount = 1;
 
         /// <summary>
         /// The <see cref="IShape"/> through which this should emit particles.

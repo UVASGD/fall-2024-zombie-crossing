@@ -26,7 +26,7 @@ namespace ZombieCrossing.Pooling.Runtime
         protected abstract TFactory Factory { get; set; }
         
         /// <summary>
-        /// Whether or not <see cref="Prewarm"/> has run. 
+        /// Whether <see cref="Prewarm"/> has run. 
         /// </summary>
         public bool IsPrewarmed { get; private set; }
         
@@ -43,7 +43,7 @@ namespace ZombieCrossing.Pooling.Runtime
         public int MaxPoolSize { get; private set; }
 
         /// <summary>
-        /// Whether or not the pool has reached the <see cref="MaxPoolSize"/> and all its member are in use.
+        /// Whether the pool has reached the <see cref="MaxPoolSize"/> and all its member are in use.
         /// </summary>
         public bool IsCompletelyInUse => availableMembers.Count == MaxPoolSize && inUseMemberPointer == 0;
 
