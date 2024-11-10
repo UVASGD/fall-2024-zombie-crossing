@@ -131,3 +131,20 @@ Bubu: ...but a *good* kind of suprised, I suppose.
   Bubu: That's why I keep all smiling to a minimum. I try to tell Bibi to do the same, but she never heeds my advice.
   Bubu: My sister is quite odd.
 ===
+
+title: Nom-NomIntro
+position: -62,-133
+---
+Nom-Nom: Well, hellooo there, traveler! Aren't you a sorry sight? Meat hangin' off your bones...that, er, starved look in your eyes...
+Nom-Nom: No need to eat me, now! Sit down here a moment and I'll whip up somethin' nice for ya.
+// Cutscene here? Or something to indicate that Nom-Nom cooks food for you
+-> Thank you.
+  Nom-Nom: Think nothing of it! Mmm, the taste of zombie flesh just can't be beat, eh?
+  Nom-Nom: Guess they haven't figured that out yet, or we wouldn't have to worry about ourselves.
+  Nom-Nom: But maybe that means us normal folk taste even BETTER than zombies? To think that we'll never know...brings a tear to my eye... *sniff*
+  -> Didn't you just tell me not to eat you?
+    Nom-Nom: Har-har-har! Forgive me, I got distracted. Traveler, do ya know WHY the world is in this mess?
+    -> No...
+      Nom-Nom: Oh, bless your hungry little heart. Well, keep your head on and I'll tell ya a little story.
+      // Add plot explanation/exposition, tutorial?
+===
