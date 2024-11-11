@@ -1,0 +1,19 @@
+{
+    "name": "ZombieCrossing.Player",
+    "rootNamespace": "",
+    "references": [
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:c47aa2df037b9ae4f93b69450db668de",
+        "GUID:95259f1b53525a7419b525d7ed497d9a",
+        "GUID:fc314c475911f9b40babad8093a0363d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

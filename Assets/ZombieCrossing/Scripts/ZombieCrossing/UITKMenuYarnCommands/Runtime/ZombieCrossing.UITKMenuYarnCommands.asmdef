@@ -1,0 +1,18 @@
+{
+    "name": "ZombieCrossing.UITKMenuYarnCommands",
+    "rootNamespace": "",
+    "references": [
+        "GUID:7033da3f71e440347846b293c3999ab7",
+        "GUID:0056e90a88a71484daf1982d1a40c32d",
+        "GUID:fc314c475911f9b40babad8093a0363d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

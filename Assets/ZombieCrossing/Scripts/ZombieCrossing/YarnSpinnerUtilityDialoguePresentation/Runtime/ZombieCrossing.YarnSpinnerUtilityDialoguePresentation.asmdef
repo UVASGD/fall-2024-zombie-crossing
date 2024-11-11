@@ -1,0 +1,19 @@
+{
+    "name": "ZombieCrossing.YarnSpinnerUtilityDialoguePresentation",
+    "rootNamespace": "",
+    "references": [
+        "GUID:c47aa2df037b9ae4f93b69450db668de",
+        "GUID:fc314c475911f9b40babad8093a0363d",
+        "GUID:7033da3f71e440347846b293c3999ab7",
+        "GUID:34aa492b82754644eac2f903cd496268"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

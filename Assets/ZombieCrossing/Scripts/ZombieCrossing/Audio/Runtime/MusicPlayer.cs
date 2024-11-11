@@ -1,6 +1,6 @@
 using System.Threading;
 using UnityEngine;
-using YarnSpinnerUtility.Runtime;
+using ZombieCrossing.ThreadingExtensions.Runtime;
 
 namespace ZombieCrossing.Audio.Runtime
 {

@@ -1,7 +1,7 @@
 using UnityEngine;
 using ZombieCrossing.CommandPattern.Runtime;
 
-namespace ZombieCrossing.Inventory.Runtime
+namespace ZombieCrossing.Inventory.Runtime  
 {
     
     /// <summary>
