@@ -1,10 +1,10 @@
 {
-    "name": "ZombieCrossing.ParticleSystem",
+    "name": "ZombieCrossing.ParticleSystemControl",
     "rootNamespace": "",
     "references": [
-        "GUID:965e4ecde81d6d042873da545437d472",
-        "GUID:49b49c76ee64f6b41bf28ef951cb0e50",
-        "GUID:8ee99b8e13b3a1444be7c091b9a0deb5"
+        "GUID:46cd7ea2461d5a04cb9b9bfb164434e9",
+        "GUID:c47aa2df037b9ae4f93b69450db668de",
+        "GUID:75469ad4d38634e559750d17036d5f7c"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

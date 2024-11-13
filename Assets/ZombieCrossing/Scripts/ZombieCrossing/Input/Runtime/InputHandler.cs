@@ -25,7 +25,7 @@ namespace ZombieCrossing.Input.Runtime
         public event Action<Vector2> OnPointerPosition;
         
         /// <summary> Callback on attack. </summary>
-        public event Action OnAttack;
+        public event Action<InputAction.CallbackContext> OnAttack;
         
         /// <summary> Callback on interact. </summary>
         public event Action OnInteract;
@@ -44,6 +44,18 @@ namespace ZombieCrossing.Input.Runtime
         
         /// <summary> Callback on sprint. </summary>
         public event Action OnSprint;
+
+        /// <summary> callback on number 1 pressed. </summary>
+        public event Action On1; 
+        
+        /// <summary> callback on number 2 pressed. </summary>
+        public event Action On2; 
+        
+        /// <summary> callback on number 3 pressed. </summary>
+        public event Action On3; 
+        
+        /// <summary> callback on number 4 pressed. </summary>
+        public event Action On4; 
         
         /// <summary> Callback on navigate (UI). </summary>
         public event Action<Vector2> OnNavigate;
@@ -63,13 +75,17 @@ namespace ZombieCrossing.Input.Runtime
         public void HandleLook(InputAction.CallbackContext context) => HandleVector2Input(context, vector => OnLook?.Invoke(vector));
         public void HandlePointerPosition(InputAction.CallbackContext context) => HandleVector2Input(context, vector => OnPointerPosition?.Invoke(vector));
         public void HandleNavigate(InputAction.CallbackContext context) => HandleVector2Input(context, vector => OnNavigate?.Invoke(vector));
-        public void HandleAttack(InputAction.CallbackContext context) => HandleButtonInput(context, () => OnAttack?.Invoke());
+        public void HandleAttack(InputAction.CallbackContext context) => OnAttack?.Invoke(context);
         public void HandleInteract(InputAction.CallbackContext context) => HandleButtonInput(context, () => OnInteract?.Invoke());
         public void HandleCrouch(InputAction.CallbackContext context) => HandleButtonInput(context, () => OnCrouch?.Invoke());
         public void HandleJump(InputAction.CallbackContext context) => HandleButtonInput(context, () => OnJump?.Invoke());
         public void HandlePrevious(InputAction.CallbackContext context) => HandleButtonInput(context, () => OnPrevious?.Invoke());
         public void HandleNext(InputAction.CallbackContext context) => HandleButtonInput(context, () => OnNext?.Invoke());
         public void HandleSprint(InputAction.CallbackContext context) => HandleButtonInput(context, () => OnSprint?.Invoke());
+        public void Handle1(InputAction.CallbackContext context) => HandleButtonInput(context, () => On1?.Invoke());
+        public void Handle2(InputAction.CallbackContext context) => HandleButtonInput(context, () => On2?.Invoke());
+        public void Handle3(InputAction.CallbackContext context) => HandleButtonInput(context, () => On3?.Invoke());
+        public void Handle4(InputAction.CallbackContext context) => HandleButtonInput(context, () => On4?.Invoke());
         public void HandleSubmit(InputAction.CallbackContext context) => HandleButtonInput(context, () => OnSubmit?.Invoke());
         public void HandleCancel(InputAction.CallbackContext context) => HandleButtonInput(context, () => OnCancel?.Invoke());
 
