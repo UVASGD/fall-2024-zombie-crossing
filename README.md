@@ -20,12 +20,14 @@ Next, if you do not have access to it, create a private git repository named `fa
 - https://assetstore.unity.com/packages/vfx/shaders/fullscreen-camera-effects/pixel-perfect-fog-of-war-229484
 - https://assetstore.unity.com/packages/3d/environments/fantasy/idyllic-fantasy-nature-260042
 - https://assetstore.unity.com/packages/3d/environments/fantasy-landscape-103573
+- https://assetstore.unity.com/packages/3d/props/guns/low-poly-weapons-vol-1-151980
 
 >[!Warning]
 > Some of the above packages may not be immediately compatible with URP, so you must select `Edit/Rendering/Materials/Convert Selected Built-in Materials to URP`
 > with the full contents of the following directories selected: 
-> * FantasyEnvironments/Environments/Materials
-> * FantasyEnvironments/Environments/Town/Materials
+> * FantasyEnvironments/Environments/Materials/
+> * FantasyEnvironments/Environments/Town/Materials/
+> * Low Poly Weapons VOL.1/
 
 If you needed to perform these steps, run the following command, where `<url>` is the url of the `fall-2024-zombie-crossing-private` git repository:
 ```bash
