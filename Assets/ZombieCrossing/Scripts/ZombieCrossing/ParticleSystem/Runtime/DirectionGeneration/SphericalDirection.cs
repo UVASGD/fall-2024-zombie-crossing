@@ -3,7 +3,7 @@ using UnityEngine;
 namespace ZombieCrossing.ParticleSystem.Runtime.DirectionGeneration
 {
     /// <summary>
-    /// Returns a normal in an arbitrary normal polygon.
+    /// Returns an evenly distributed, repeating sequence of points in a Fibonacci sphere. 
     /// </summary>
     [System.Serializable]
     public class SphericalDirection: IDirectionGenerator

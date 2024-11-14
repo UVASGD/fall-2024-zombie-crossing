@@ -45,17 +45,8 @@ namespace ZombieCrossing.Input.Runtime
         /// <summary> Callback on sprint. </summary>
         public event Action OnSprint;
 
-        /// <summary> callback on number 1 pressed. </summary>
-        public event Action On1; 
-        
-        /// <summary> callback on number 2 pressed. </summary>
-        public event Action On2; 
-        
-        /// <summary> callback on number 3 pressed. </summary>
-        public event Action On3; 
-        
-        /// <summary> callback on number 4 pressed. </summary>
-        public event Action On4; 
+        /// <summary> callback on number pressed (e.g. numpad). </summary>
+        public event Action<int> OnNumber; 
         
         /// <summary> Callback on navigate (UI). </summary>
         public event Action<Vector2> OnNavigate;
@@ -82,10 +73,10 @@ namespace ZombieCrossing.Input.Runtime
         public void HandlePrevious(InputAction.CallbackContext context) => HandleButtonInput(context, () => OnPrevious?.Invoke());
         public void HandleNext(InputAction.CallbackContext context) => HandleButtonInput(context, () => OnNext?.Invoke());
         public void HandleSprint(InputAction.CallbackContext context) => HandleButtonInput(context, () => OnSprint?.Invoke());
-        public void Handle1(InputAction.CallbackContext context) => HandleButtonInput(context, () => On1?.Invoke());
-        public void Handle2(InputAction.CallbackContext context) => HandleButtonInput(context, () => On2?.Invoke());
-        public void Handle3(InputAction.CallbackContext context) => HandleButtonInput(context, () => On3?.Invoke());
-        public void Handle4(InputAction.CallbackContext context) => HandleButtonInput(context, () => On4?.Invoke());
+        public void Handle1(InputAction.CallbackContext context) => HandleButtonInput(context, () => OnNumber?.Invoke(1));
+        public void Handle2(InputAction.CallbackContext context) => HandleButtonInput(context, () => OnNumber?.Invoke(2));
+        public void Handle3(InputAction.CallbackContext context) => HandleButtonInput(context, () => OnNumber?.Invoke(3));
+        public void Handle4(InputAction.CallbackContext context) => HandleButtonInput(context, () => OnNumber?.Invoke(4));
         public void HandleSubmit(InputAction.CallbackContext context) => HandleButtonInput(context, () => OnSubmit?.Invoke());
         public void HandleCancel(InputAction.CallbackContext context) => HandleButtonInput(context, () => OnCancel?.Invoke());
 
