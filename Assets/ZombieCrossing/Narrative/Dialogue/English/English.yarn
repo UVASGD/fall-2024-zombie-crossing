@@ -53,7 +53,6 @@ Bubu: Oh...death has arrived...how strangely sweet...
 title: BibiGeneralDialogue
 position: -146,46
 ---
-//Placeholder dialogue. Add flavor!
 //Bibi is the peppy one.
 Bibi: Hello~! It's a great day to shoot some zombies, isn't it?
 Bibi: Just kidding~!
@@ -116,7 +115,6 @@ Bubu: ...Welcome.
 title: BubuGeneralDialogue
 position: 75,61
 ---
-//Placeholder dialogue. Add flavor!
 //Bubu is the macarbe one. 
 Bubu: Hi.
 Bubu: I'm suprised you're not dead yet... 
@@ -126,7 +124,7 @@ Bubu: ...but a *good* kind of suprised, I suppose.
   <<jump BubuShopkeeperDialogue>>
 -> What do you sell?
   //Bubu describes how she sells seeds and bait.
-  Bubu: Seeds and fish bait. 
+  Bubu: Seeds and fishing rods. 
   Bubu: One brings new life. The other is the harbinger of death. 
   Bubu: Choose wisely.
 -> About Self
@@ -149,3 +147,22 @@ Bubu: ...but a *good* kind of suprised, I suppose.
   Bubu: My sister is quite odd.
 ===
 
+title: PreFinalBoss
+position: -146,46
+---
+Zombie God: You think you can stop Zombie God?
+Zombie God: Zombie God can tell you have no brains.
+Zombie God: You not even worthy for Zombie God's stomach! 
+// ^ Not a typo. Thinking he can speak in slightly broken English?
+===
+
+title: PostFinalBoss
+position: -146,46
+---
+Zombie God: Mmm...
+Zombie God: Too tasty...
+Zombie God: Zombie God...no can fight...any longer...
+//^ Not a typo.
+Zombie God: ...
+Zombie God: *BURP*
+===
