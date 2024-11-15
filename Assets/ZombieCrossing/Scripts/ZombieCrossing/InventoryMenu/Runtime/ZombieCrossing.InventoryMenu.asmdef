@@ -1,0 +1,18 @@
+{
+    "name": "ZombieCrossing.InventoryMenu",
+    "rootNamespace": "",
+    "references": [
+        "GUID:8e3ce4d97cfa51b4d82642a04b811e9c",
+        "GUID:0056e90a88a71484daf1982d1a40c32d",
+        "GUID:75469ad4d38634e559750d17036d5f7c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

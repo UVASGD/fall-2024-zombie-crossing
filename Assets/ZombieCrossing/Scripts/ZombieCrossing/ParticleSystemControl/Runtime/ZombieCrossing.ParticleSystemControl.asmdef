@@ -1,0 +1,18 @@
+{
+    "name": "ZombieCrossing.ParticleSystemControl",
+    "rootNamespace": "",
+    "references": [
+        "GUID:46cd7ea2461d5a04cb9b9bfb164434e9",
+        "GUID:c47aa2df037b9ae4f93b69450db668de",
+        "GUID:75469ad4d38634e559750d17036d5f7c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

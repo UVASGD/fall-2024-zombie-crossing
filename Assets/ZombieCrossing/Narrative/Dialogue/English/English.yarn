@@ -12,6 +12,44 @@ NPC: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem
 //<<jump Node>> - Jumping Node example
 ===
 
+title: Nom-NomIntro
+position: -62,-133
+---
+Nom-Nom: Well, hellooo there, traveler! Aren't you a sorry sight? Meat hangin' off your bones...that, er, starved look in your eyes...
+Nom-Nom: No need to eat me, now! Sit down here a moment and I'll whip up somethin' nice for ya.
+// Cutscene here? Or something to indicate that Nom-Nom cooks food for you
+-> Thank you.
+  Nom-Nom: Think nothing of it! Mmm, the taste of zombie flesh just can't be beat, eh?
+  Nom-Nom: Guess they haven't figured that out yet, or we wouldn't have to worry about ourselves.
+  Nom-Nom: But maybe that means us normal folk taste even BETTER than zombies? To think that we'll never know...brings a tear to my eye... *sniff*
+  -> Didn't you just tell me not to eat you?
+    Nom-Nom: Har-har-har! Forgive me, I got distracted. Traveler, do ya know WHY the world is in this mess?
+    -> No...
+      Nom-Nom: Oh, bless your hungry little heart. Well, keep your head on and I'll tell ya a little story.
+      // Add plot explanation/exposition, tutorial?
+===
+
+title: BibiBubuRescued
+position: -62,-133
+---
+Bibi: Bubu, look up, there's someone here!
+Bubu: Oh...death has arrived...how strangely sweet...
+-> I'm not a zombie!
+  Bubu: Oh- my bad. It's kind of hard to tell.
+  Bibi: Hey, now that I think about it, you look kind of...tasty...
+  -> ...Um?????
+    Bibi: JUST KIDDING~!!! Did I scare you? Hahahahahaha!!
+    Bubu: ...
+    -> Are you guys okay?
+      Bubu: Physically, our health is pristine. But perhaps that is the only thing untouched by these hardships...
+      Bibi: Oh, don't be so dramatic, silly! We are both TOTALLY!!! FINE!!! As long as we keeeeeep smiling~
+      Bubu: We have been sleeping in a ditch for the past five days.
+      -> Well, about that...
+        Bibi: So, so you're telling me, I FINALLY have a CUSTOMER for my HAPPY GADGETS?!??!
+        Bubu: (Please don't call them that.) A roof over our heads again...does sound rather preferable. Thank you.
+===
+
+
 title: BibiGeneralDialogue
 position: -146,46
 ---
@@ -110,3 +148,4 @@ Bubu: ...but a *good* kind of suprised, I suppose.
   Bubu: That's why I keep all smiling to a minimum. I try to tell Bibi to do the same, but she never heeds my advice.
   Bubu: My sister is quite odd.
 ===
+

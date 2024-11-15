@@ -1,0 +1,16 @@
+{
+    "name": "ZombieCrossing.UITKMenuUtility",
+    "rootNamespace": "",
+    "references": [
+        "GUID:0056e90a88a71484daf1982d1a40c32d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

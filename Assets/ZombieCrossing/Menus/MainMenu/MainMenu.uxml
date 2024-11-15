@@ -1,0 +1,7 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:GroupBox style="height: auto; flex-grow: 1; justify-content: center; align-items: center;">
+        <engine:Label text="Zombie Crossing (Working Title)" style="justify-content: space-between; align-self: stretch; align-content: center; align-items: center; -unity-text-align: middle-center; font-size: 28px; -unity-font-definition: url(&quot;project://database/Assets/OpenSans/static/OpenSans-ExtraBold.ttf?fileID=12800000&amp;guid=dfe8bf23db87d8b43b3823035465914b&amp;type=3#OpenSans-ExtraBold&quot;);" />
+        <engine:Label text="UVA SGD" style="justify-content: space-between; align-self: stretch; align-content: center; align-items: center; -unity-text-align: middle-center; font-size: 14px; -unity-font-definition: url(&quot;project://database/Assets/OpenSans/static/OpenSans-Bold.ttf?fileID=12800000&amp;guid=0a37b9e9def9617479b278fd770b14f3&amp;type=3#OpenSans-Bold&quot;);" />
+        <engine:Button text="Start" name="Start" style="-unity-font-definition: url(&quot;project://database/Assets/OpenSans/static/OpenSans-Bold.ttf?fileID=12800000&amp;guid=0a37b9e9def9617479b278fd770b14f3&amp;type=3#OpenSans-Bold&quot;); width: 50%;" />
+    </engine:GroupBox>
+</engine:UXML>
