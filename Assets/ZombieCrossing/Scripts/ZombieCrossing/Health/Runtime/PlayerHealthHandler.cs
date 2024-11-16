@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using ZombieCrossing.Health.Runtime;
+using System;
 
 public class PlayerHealthHandler : MonoBehaviour
 {
@@ -25,6 +26,16 @@ public class PlayerHealthHandler : MonoBehaviour
 
     }
 
+    public void OnEnable()
+    {
+        healthEventChannel.OnPlayerHit += handleTakeDamage;
+    }
+
+    public void OnDisable()
+    {
+        healthEventChannel.OnPlayerHit -= handleTakeDamage;
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -45,12 +56,14 @@ public class PlayerHealthHandler : MonoBehaviour
         
     }
 
-    private void takeDamage(float damageDealt)
+    private void handleTakeDamage(float damageDealt)
     {
-        health -= damageDealt;
-        HasTakenDamage = true;
-        healthEventChannel.HandlePlayerHit();
-        Debug.Log(gameObject.name + " took" + damageDealt + " damage at " + Time.time);
+        if (!IsDead && !HasTakenDamage)
+        {
+            health -= damageDealt;
+            HasTakenDamage = true;
+            Debug.Log(gameObject.name + " took" + damageDealt + " damage at " + Time.time);
+        }
 
     }
 
@@ -61,13 +74,5 @@ public class PlayerHealthHandler : MonoBehaviour
         IsDead = true;
         healthEventChannel.HandlePlayerDeath();
         Debug.Log(gameObject.name + " died.");
-    }
-
-    private void OnControllerColliderHit(ControllerColliderHit hit)
-    {
-        if (hit.gameObject.CompareTag("enemy") && !HasTakenDamage && !IsDead)
-        {
-            takeDamage(1.0f);// some enemy.damage value
-        }
     }
 }

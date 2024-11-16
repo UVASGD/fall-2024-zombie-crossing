@@ -100,6 +100,7 @@ GameObject:
   - component: {fileID: 756369115584402295}
   - component: {fileID: 1665954821884845097}
   - component: {fileID: 3738672951684957457}
+  - component: {fileID: 951374158442674023}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: enemy
@@ -205,10 +206,29 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6914154581374249359}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4f09a448f7924f7aa51d814a82696212, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   navMeshAgent: {fileID: 1665954821884845097}
+--- !u!114 &951374158442674023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6914154581374249359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6546a256f906c624f8336130f3d34115, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  chaseRadius: 10
+  wanderSpeed: 2
+  chaseSpeed: 4
+  damage: 5
+  agent: {fileID: 1665954821884845097}
+  healthEventChannel: {fileID: 0}

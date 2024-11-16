@@ -10,13 +10,13 @@ namespace ZombieCrossing.Health.Runtime
     public class HealthEventChannel : MonoBehaviour
     {
         /// <summary> Callback for player hit </summary>
-        public event Action OnPlayerHit;
+        public event Action<float> OnPlayerHit;
 
         /// <summary> Callback for player death </summary>
         public event Action OnPlayerDeath;
 
 
-        public void HandlePlayerHit() => OnPlayerHit?.Invoke();
+        public void HandlePlayerHit(float damage) => OnPlayerHit?.Invoke(damage);
         public void HandlePlayerDeath() => OnPlayerDeath?.Invoke();
     }
 }

@@ -1,0 +1,16 @@
+{
+    "name": "ZombieCrossing.Zombie",
+    "rootNamespace": "",
+    "references": [
+        "GUID:26f79350249eef94eb9e588590a53589"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
