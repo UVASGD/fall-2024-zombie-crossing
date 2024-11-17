@@ -8,7 +8,7 @@ namespace ZombieCrossing.Zombie.Runtime
 {
     public class ZombieAI : MonoBehaviour
     {
-        private enum EnemyState { Wandering, Chasing, DealingDamage }
+        private enum EnemyState { Wandering, Chasing, DealingDamage, Dead }
         private EnemyState currentState = EnemyState.Wandering;
 
         public GameObject player;
@@ -161,6 +161,14 @@ namespace ZombieCrossing.Zombie.Runtime
                     SetRandomWanderTarget();
                 }
             }
+        }
+
+        private async void OnTriggerEnter(Collider other)
+        {
+            if (!other.CompareTag("Bullet")) return;
+            currentState = EnemyState.Dead;
+            await Awaitable.WaitForSecondsAsync(0.5f); 
+            Destroy(this);
         }
     }
 }
