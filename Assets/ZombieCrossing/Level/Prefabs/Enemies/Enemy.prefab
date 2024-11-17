@@ -26,13 +26,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4300611755381899186}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalRotation: {x: 0, y: 0.7069834, z: 0.7072302, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 12.57, y: 12.569998, z: 12.569998}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4813221147618162336}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -89.98, y: 0, z: 180}
 --- !u!33 &295122041379508592
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -101,6 +101,7 @@ GameObject:
   - component: {fileID: 1665954821884845097}
   - component: {fileID: 3738672951684957457}
   - component: {fileID: 951374158442674023}
+  - component: {fileID: 4204463754476833395}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: enemy
@@ -232,3 +233,30 @@ MonoBehaviour:
   damage: 5
   agent: {fileID: 1665954821884845097}
   healthEventChannel: {fileID: 0}
+--- !u!54 &4204463754476833395
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6914154581374249359}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0

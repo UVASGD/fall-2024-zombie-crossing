@@ -165,9 +165,10 @@ namespace ZombieCrossing.Zombie.Runtime
 
         private async void OnTriggerEnter(Collider other)
         {
+            Debug.Log(other.tag);
             if (!other.CompareTag("Bullet")) return;
             currentState = EnemyState.Dead;
-            await Awaitable.WaitForSecondsAsync(0.5f); 
+            await Awaitable.WaitForSecondsAsync(0.1f); 
             Destroy(this);
         }
     }
